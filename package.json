@@ -10,12 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@gsap/react": "^2.1.0",
     "@fontsource/inter": "^5.0.17",
     "@fontsource/space-grotesk": "^5.0.16",
+    "@gsap/react": "^2.1.0",
     "@react-spring/three": "^9.7.3",
     "@react-three/drei": "^9.99.5",
     "@react-three/fiber": "^8.15.16",
+    "@splinetool/react-spline": "^4.0.0",
     "framer-motion": "^11.0.8",
     "gsap": "^3.12.5",
     "lucide-react": "^0.344.0",
@@ -24,8 +25,10 @@
     "react-intersection-observer": "^9.8.1",
     "react-router-dom": "^6.22.2",
     "react-type-animation": "^3.2.0",
+    "spline": "^0.0.0",
     "swiper": "^11.0.7",
-    "three": "^0.162.0"
+    "three": "^0.162.0",
+    "viewer": "^0.10.11"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",

@@ -4,6 +4,7 @@ import { OrbitControls, PerspectiveCamera, Environment, Float, Stars } from '@re
 import FloatingCube from './FloatingCube';
 import FloatingParticles from './FloatingParticles';
 
+
 const Scene = () => {
   return (
     <div className="absolute inset-0 pointer-events-none">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import ContactForm from '../components/ContactForm';
 
 const ContactPage = () => {
   return (
@@ -18,7 +19,7 @@ const ContactPage = () => {
           <p className="text-gray-300 text-lg max-w-3xl mx-auto text-center mb-12">
             Get in touch with our team of experts
           </p>
-          {/* Add contact form here */}
+          <ContactForm />
         </div>
       </section>
     </motion.div>

@@ -5,6 +5,8 @@ import { ArrowRight, Brain, Code, Cpu, Wifi } from 'lucide-react';
 import { gsap } from 'gsap';
 import Scene from './3d/Scene';
 
+
+
 const HeroSection = () => {
   useEffect(() => {
     gsap.from('.hero-content', {
@@ -18,6 +20,7 @@ const HeroSection = () => {
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
       <Scene />
+     
       <div className="absolute inset-0 bg-gradient-to-b from-black via-purple-900/20 to-black" />
       
       <div className="container mx-auto px-4 z-10 hero-content">

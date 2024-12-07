@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import ProjectGrid from '../components/ProjectGrid';
 
 const PortfolioPage = () => {
   return (
@@ -18,7 +19,7 @@ const PortfolioPage = () => {
           <p className="text-gray-300 text-lg max-w-3xl mx-auto text-center mb-12">
             Explore our latest engineering projects and innovations
           </p>
-          {/* Add portfolio content here */}
+          <ProjectGrid />
         </div>
       </section>
     </motion.div>
